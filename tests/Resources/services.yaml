@@ -31,3 +31,9 @@ services:
             - '@doctrine'
         tags:
             - { name: bentools_webpush.subscription_manager, user_class: 'BenTools\WebPushBundle\Tests\Classes\TestUser' }
+
+
+
+framework:
+    cache:
+        default_pdo_provider: ~
